@@ -12,7 +12,6 @@ router.get("/resultprint", apiController.PrintData);
 router.get("/getuserdata", authController.getData);
 router.post("/signup", authController.signUp);
 router.get("/login", authController.login);
-router.get("/logout", authController.logout);
 
 // router.get("/result", apiController.login);
 
